@@ -9,7 +9,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("../build/log/builder.log"),
+        logging.FileHandler("../log/builder.log"),
         logging.StreamHandler()
     ]
 )

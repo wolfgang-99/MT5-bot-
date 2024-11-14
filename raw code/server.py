@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 import logging
-import ast
 
 # Configure logging
 logging.basicConfig(
@@ -24,8 +23,8 @@ long_window = 100  # Long-term moving average window
 
 # login details
 login = int(input("Pls type in your login code here: "))
-password = input("Pls type in your password code here: ")
-server = input("Pls type in your server here: ")
+password = str(input("Pls type in your password code here: "))
+server = str(input("Pls type in your server here: "))
 
 
 # currency list
