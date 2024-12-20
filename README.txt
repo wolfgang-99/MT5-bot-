@@ -5,7 +5,8 @@
 2. Serials of pairs e.g "EUR", "USD", "GBP", "JPY", "CHF", "NZD", "CAD"
 3. After the first run of the program a symbols.csv file will be in the MT5_V2.1 folder
 4. This bot run in invertval at 30 seconds.
-5. The setup.py is to build for .exe file for MAC OS system.
+5. The setup.py is to build .exe file for MAC OS system.
+6. The builder.py is to build .exe for windows.
 
 
 ------------------ General info -----------------------------------------
